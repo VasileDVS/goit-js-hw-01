@@ -1,8 +1,8 @@
 function getElementWidth(content, padding, border)
  {
-    content =parseInt(content.replace("px",""))
-    padding =parseInt(content.replace("px",""))
-    border =parseInt(content.replace("px",""))
+    content =parseInt(content.replace("px",""));
+    padding =parseInt(content.replace("px",""));
+    border =parseInt(content.replace("px",""));
     let result=content+(padding+border)*2;
     return result;
 }
